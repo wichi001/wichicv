@@ -52,8 +52,8 @@
 					<h1>Ich bin<br><span id="typed"></span></h1>
 				</div>
 				<p>
-				 Mit meiner Kenntnissen kann ich schom konzept für eine einfache apps modellieren und das ensprechende Programm schreiben.
-				 Und ich kann auch gern bei der Softwaretesting Tätigkeiten unterstützen.
+				 Mit meinen Kenntnissen kann ich bereits Konzepte für eine einfache Apps modellieren und das ensprechende Programm schreiben.
+				 Zudem kann ich Sie auch gern bei Ihren Software Testing Tätigkeiten unterstützen.
 				</p>
 			</div>
 		</div>
@@ -65,8 +65,11 @@
 			<h1>Berufliche <br>Laufbahn</h1>
 			<ul class="work-list">
 				<li>2019-2020</li>
-				<li><a href="#">Fachhochschule Dortmund</a></li>
-				<li>Tutor von ProgrammierKursen mit java</li>
+				<li><!--<a href="#">-->Fachhochschule Dortmund<!--</a>-->
+                <ul class="worke">
+				<li>Tutor von Programmierkursen mit java</li>
+			   </ul>
+			</li>
 			</ul>
 		</div>
 	</div>
@@ -79,17 +82,17 @@
 				<li>2014 - Heute </li>
 				<li>
 					Bachelor Studium Wirtschaftsinformatik
-					<ul>
+					<ul class="awarde">
 						<li>Fachhochschule Dortmund</li>
 						<li>Universität Paderborn</li>
 					</ul>
 				</li>
 			</ul>
 			<ul class="award-list list-flat">
-				<li>Praktische Tätigkeit</li>
+				<li>Praktische Tätigkeiten</li>
 				<li>
 					Programmierpraktikum
-					<ul>
+					<ul class="awarde">
 						<li>
 							Entwicklung einer Application durch Erarbeiten, Kommunizieren und
 							Präsentieren von Programmen und deren Implementierung
@@ -98,7 +101,7 @@
 				</li>
 				<li>
 					Softwaretechnik 1 & 2 Praktikum
-					<ul>
+					<ul class="awarde">
 						<li>
 							Objektorientierte Analyse mit UML
 						</li>
@@ -109,14 +112,14 @@
 							Erstellung eines Fachkonzepts bzw. eines Konkretenmodells
 						</li>
 						<li>
-							Eine Softwarearchitektur erarbeiten mit Hilfe von Middleware umsetzen
+							Eine Softwarearchitektur erarbeiten und mit Hilfe von Middleware umsetzen
 						</li>
 					</ul>
 				</li>
 
 				<li>
 					ERP 1 & 2 Praktikum
-					<ul>
+					<ul class="awarde">
 						<li>
 							Entwicklung einer Application durch Erarbeiten, Kommunizieren und
 							Präsentieren von Programmen und deren Implementierung
@@ -132,14 +135,14 @@
 				</li>
 
 				<li>
-					Datenbaken 1 Praktikum
-					<ul>
+					Datenbaken 1.Praktikum
+					<ul class="awarde">
 						<li>
 							Anwendung von SQL Befehlen zum Einrichten, Speichern und Abfragen von
 							Information
 						</li>
 						<li>
-							Normalisierung von Daten und dem Umgang mit der Steuerwerkzeugen für ein
+							Normalisierung von Daten und der Umgang mit den Steuerwerkzeugen für ein
 							Datenbanksystem
 						</li>
 					</ul>
@@ -149,14 +152,14 @@
 			<ul class="award-list list-flat">
 				<li>2013-2014</li>
 				<li>
-					Deutsche-Sprachkurs an Universität Paderborn
+					Deutsche Sprachkurs an Universität Paderborn
 				</li>
 			</ul>
 
 			<ul class="award-list list-flat">
 				<li>2012-2013 </li>
 				<li>
-					Deutsche-Sprachkurs an Goethe-Institut
+					Deutsche Sprachkurs an Goethe-Institut
 				</li>
 			</ul>
 
@@ -196,9 +199,9 @@
 
 	<!-- Quote -->
 	<div class="quote">
-		<!--<div class="container text-centered">
+		<div class="container text-centered">
 			<h1>fight against the ugliness.</h1>
-		</div>-->
+		</div>
 	</div>
 
 	<footer>
@@ -228,7 +231,7 @@
 							function newTyped() { } $(function () {
 								$("#typed").typed({
 									// Change to edit type effect
-									strings: ["Wilfried Chimi Teitang", "Student", "Zukuntige Softwareentwickler","Ihre Lösung"],
+									strings: ["Wilfried Chimi Teitang", "Student", "Zukuntiger Softwareentwickler","Ihre Lösung"],
 
 									typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
 								}), $(".reset").click(function () { $("#typed").typed("reset") })

@@ -116,7 +116,7 @@ a:hover {
   .work .work-list li {
     list-style: none;
     font-size: 0.9375em;
-    color: #8c8c8c; }
+    color: black; }
     .work .work-list li a {
       padding-bottom: 5px;
       font-size: 1.1875em;
@@ -131,6 +131,8 @@ a:hover {
   .award .award-list li:first-child {
     font-size: 0.9375em;
     color: #8c8c8c; }
+    
+    .award .awarde li:first-child{color:black;}
 
 .skills .skill-list {
   margin-left: 0px; }
@@ -141,8 +143,7 @@ a:hover {
 .quote {
   background: url(../img/bg.jpg);
   padding: 20px 0px;
-  margin-top: 120px;
-  height:300px; }
+  margin-top: 120px; }
   .quote h1 {
     margin: 100px 0px;
     padding: 40px 20px;
